@@ -6,7 +6,7 @@
     <StackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="Center">
 
         <Label Text="Dungeon and Dragons"/>
-        <Image Source="dnd.jpg"/>
+        <Image Source="local:dnd.jpg"/>
          
         <Button x:Name="scorePage"
                 Text="Score"
