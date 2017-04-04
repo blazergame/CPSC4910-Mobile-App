@@ -4,6 +4,6 @@
              x:Class="helloWorld.ScorePage">
 
     <StackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="Center">
-        <Label Text="Score Stuff"/>
+        <Label Text="Keeps track of user score"/>
     </StackLayout>
 </ContentPage>

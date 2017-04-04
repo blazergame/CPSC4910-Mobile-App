@@ -7,7 +7,7 @@
     <StackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="Center">
         <Label Text="CPSC - 4910 - SQ"/>
         <Label Text="Student - Jia Hui Li(Benson)" />
-        <Label Text="Date/Time - 4/3, 8 pm" />
+        <Label Text="Date/Time - 4/4, 9 am" />
         <Label Text="Code Review - Benson Li" />
 
         <Button x:Name="ListPage"

@@ -4,6 +4,6 @@
              x:Class="helloWorld.CharacterPage">
 
     <StackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="Center">
-        <Label Text="Character Page"/>
+        <Label Text="Shows the stats of the characters"/>
     </StackLayout>
 </ContentPage>

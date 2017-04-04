@@ -3,10 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="helloWorld.ListPage">
 
-    <StackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="Center">
+    <StackLayout Spacing="5" VerticalOptions="Center" HorizontalOptions="Center">
 
-        <Label Text="Dungeon and Dragons"/>
-        <Image Source="local:dnd.jpg"/>
+        <Label Text="DnD" TextColor="Red" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20"/>
+        <Image Source="http://dragonsdengames.com/wp-content/uploads/2013/06/Dungeons_and_Dragons_4th_Edition_Logo.jpg"/>
          
         <Button x:Name="scorePage"
                 Text="Score"

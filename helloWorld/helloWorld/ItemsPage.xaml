@@ -4,5 +4,6 @@
              x:Class="helloWorld.ItemsPage">
 
     <StackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="Shows available items to get"/>
     </StackLayout>
 </ContentPage>

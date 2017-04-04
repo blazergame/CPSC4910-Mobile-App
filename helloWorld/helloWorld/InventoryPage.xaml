@@ -4,7 +4,7 @@
              x:Class="helloWorld.InventoryPage">
 
     <StackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="Center">
-        <Label Text="Inventory Stuff"/>
+        <Label Text="Shows all items in inventory"/>
     </StackLayout>
     
 </ContentPage>
