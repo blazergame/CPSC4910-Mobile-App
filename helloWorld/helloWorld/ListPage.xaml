@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="helloWorld.ListPage">
+
+    <StackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="Center">
+
+        <Label Text="Dungeon and Dragons"/>
+        <Image Source="dnd.jpg"/>
+         
+        <Button x:Name="scorePage"
+                Text="Score"
+                Clicked="OnBtnScore"/>
+        
+        <Button x:Name="characterPage"
+                Text="Character"
+                Clicked="OnBtnCharacter"/>
+        
+        <Button x:Name="inventoryPage"
+                Text="Inventory"
+                Clicked="OnBtnInventory"/>
+        
+        <Button x:Name="monstersPage"
+                Text="Monsters"
+                Clicked="OnBtnMonsters"/>
+        
+        <Button x:Name="itemsPage"
+                Text="Items"
+                Clicked="OnBtnItems"/>
+        
+        <Button x:Name="battlePage"
+                Text="Battle"
+                Clicked="OnBtnBattle"/>
+
+    </StackLayout>
+</ContentPage>

@@ -13,5 +13,10 @@ namespace helloWorld
 		{
 			InitializeComponent();
 		}
-	}
+
+        void OnbtnListPage(object sender, EventArgs args)
+        {
+            Navigation.PushModalAsync(new ListPage(),true);
+        }
+    }
 }
