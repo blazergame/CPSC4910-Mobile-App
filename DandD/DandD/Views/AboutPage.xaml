@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DandD.Views.AboutPage"
+             xmlns:vm="clr-namespace:DandD.ViewModels;"
+             Title="{Binding Title}">
+  <ContentPage.BindingContext>
+    <vm:AboutViewModel />
+  </ContentPage.BindingContext>
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+      <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+        <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
+          <Image Source="xamarin_logo.png" VerticalOptions="Center" HeightRequest="64"/>
+        </ContentView>
+      </StackLayout>
+    </StackLayout>
+
+    <ScrollView Grid.Row="1">
+        <StackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="CPSC - 4910 - SQ"/>
+            <Label Text="Student - Jia Hui Li(Benson)" />
+            <Label Text="Student - Christ Trent"/>
+            <Label Text="Student - Dhruv Seth"/>
+            <Label Text="Date/Time - 4/17,  9 pm" />
+            <Label Text="Code Review - Crystal Nguyen" />
+        </StackLayout>
+    </ScrollView>
+    </Grid>
+</ContentPage>
